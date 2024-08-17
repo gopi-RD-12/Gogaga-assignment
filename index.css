@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.website-logo{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+  #navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  #navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  #navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  #navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  #navItem5 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+
+.button{
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 20px;
+    padding:10px;
+}
+.navbar-nav-items{
+    display: flex;
+    align-items: center;
+}
+.adventure-bg-container{
+    background-image: url("https://images.unsplash.com/photo-1590053404184-ce4ee04f3d58?q=80&w=1616&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height:100vh;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+}
+.bg-container-heading{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+@media screen and (max-width:768px){
+  .bg-container-heading{
+    font-size: 32px;
+   
+}
+}
+.bg-container-descriprion{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+@media screen and (max-width:768px){
+  .bg-container-descriprion{
+    font-size: 18px;
+  }
+}
+.card-container{
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding:20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.buttons-container{
+    display:flex;
+    align-items: center;
+    margin-left:30px;
+}
+.active-type-of-button{
+    border-radius: 12px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+   
+}
+
+.type-of-button{
+    color: #000000;
+    background-color: transparent;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.user-input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:20px;
+}
+@media screen and (max-width:768px){
+  .user-input-container{
+    margin-top: 20px;
+  }
+}
+.user-input-container-border{
+  border:1px solid gray;
+  border-radius: 12px;
+
+}
+.custom-input{
+  border: none;
+  outline: none;
+  color: #000000;
+  font-weight: 300;
+  font-size: 16px;
+}
+.moon-icon{
+  display: flex;
+  align-items: center;
+
+}
+.type-of-shift-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Check-in-and-check-out-container{
+  display:flex;
+  align-items: center;
+}
+@media screen and (max-width:768px){
+  .Check-in-and-check-out-container{
+    margin-top: 20px;
+    align-items: center;
+  }
+}
+.container{
+  display:flex;
+  align-items: center;
+}
+@media screen and (max-width:768px){
+  .container{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.star-rating-text{
+  font-weight: 500;
+  font-size: 18px;
+  margin-left:12px;
+}
